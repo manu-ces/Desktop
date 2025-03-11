@@ -6,7 +6,7 @@ export default function TaskFilter({ filter, setFilter }) {
     <Select
       value={filter}
       onChange={setFilter}
-      style={{ marginBottom: '20px' }}
+      style={{ marginBottom: '20px', marginLeft: '10px' }}
     >
       <Select.Option value="all">All</Select.Option>
       <Select.Option value="completed">Completed</Select.Option>
